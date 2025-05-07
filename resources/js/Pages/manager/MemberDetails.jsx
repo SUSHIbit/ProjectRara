@@ -315,7 +315,7 @@ const MemberDetails = () => {
                         Back to Members List
                     </button>
                     
-                    
+                    <a
                         href={`mailto:${member.email}`}
                         className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-200"
                     >
